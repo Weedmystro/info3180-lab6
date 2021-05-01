@@ -55,7 +55,7 @@ const NewsList = {
               <input type="search" name="search" v-model="searchTerm"
       id="search" class="form-control mb-2 mr-sm-2" placeholder="Enter
       search term here" />
-              <p>You are searching for {{ searchTerm }}</p>
+            <button class="btn btn-primary mb-2" @click="searchNews">Search</button>
           </div>
       </div>
   `,
